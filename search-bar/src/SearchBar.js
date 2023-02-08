@@ -22,8 +22,6 @@ const SearchBar=({data})=>{
          setSearchData('')
          setResultData([])
    }
-
-
    return (
     <div className='results'>
     <div className="search-inputs">
@@ -41,7 +39,7 @@ const SearchBar=({data})=>{
                 resultData.slice(0,15).map((book,index)=>{
                     return (
                          <div key={index} className="search-item">
-                         <p><a href={book.url}>{book.title}</a></p>
+                         <p><a href={book.link} target="_blank">{book.title}</a></p>
                          </div>
                     )
                 })

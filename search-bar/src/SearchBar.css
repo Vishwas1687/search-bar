@@ -49,8 +49,10 @@
     text-decoration: none;
     font-size: 1.2rem;
     background-color: white;
+    color: black;
     padding:0.5rem;
     display: block;
+    cursor: pointer;
 }
 
 .search-results::-webkit-scrollbar{
