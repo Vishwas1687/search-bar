@@ -1,9 +1,13 @@
-
+import React from 'react';
+import SearchBar from './SearchBar.js';
+import data from './data.js';
 import './App.css';
 
 function App() {
   return (
-    null
+    <div>
+      <SearchBar data={data}/>
+    </div>
   );
 }
 
